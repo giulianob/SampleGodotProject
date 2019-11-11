@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "c:/bin/Godot_v3.1.1/Godot_v3.1.1-stable_mono_win64.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Attach",
+            "type": "mono",
+            "request": "attach",
+            "address": "localhost",
+            "port": 23685,
+            "internalConsoleOptions": "neverOpen",
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run and attach",
+            "configurations": [
+                "Attach",
+                "Run",
+            ]
+        }
+    ]
+}

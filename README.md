@@ -1,2 +1,1 @@
-# SampleGodotProject
- A sample C# Godot project
+This is a sample C# Godot project that follows the [https://giulianob.svbtle.com/godot-csharp-setup](The Ultimate Godot C# Setup Guide) post. 
